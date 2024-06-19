@@ -1,0 +1,9 @@
+# Configurar um ambiente virtual:
+> python -m venv venv
+> source venv/bin/activate # No Windows utilize: "venv\Scripts\activate"
+
+# Instalar o Django e outros pacotes necessários:
+> pip install django djangorestframework mysqlclient djangorestframework-simplejwt
+
+# Instalar dependências adicionais do frontend:
+> npm install axios

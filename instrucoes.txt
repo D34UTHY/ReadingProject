@@ -2,7 +2,7 @@
     Certifique-se de ter o Python instalado.
 
 2 - Crie um Ambiente Virtual:
-    python -m venv venv
+    > python -m venv venv
 
 3 - Ative o Ambiente Virtual:
     Windows - venv\Scripts\Activate
@@ -10,7 +10,7 @@
 
 4 - Instalação de Dependências:
     Instale o Django e outras dependências necessárias:
-    pip install django djangorestframework mysqlclient djangorestframework-simplejwt
+    > pip install django djangorestframework mysqlclient djangorestframework-simplejwt
 
 5 - Instale o MySQL:
     Certifique-se de ter o MySQL instalado.
@@ -25,11 +25,14 @@
 
 7 - Configuração do Projeto Django
     Crie o Projeto Django:
-    django-admin startproject library_management
-    cd library_management
+    > django-admin startproject library_management
+    > cd library_management
 
 8 - Crie o Aplicativo Django:
-    python manage.py startapp api
+    > python manage.py startapp api
 
 9 - Configure o 'settings.py':
     Abra 'library_management/settings.py' e configure o banco de dados
+
+10 - Baixe o axios
+    > npm install axios
